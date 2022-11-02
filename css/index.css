@@ -92,7 +92,7 @@ nav li a {
   position: relative;
   margin: 50px auto;
 }
-.container .bigBox #tab .tab1 + .box {
+.container .bigBox #tab .tab1 ~ .box {
   display: none;
 }
 .container .bigBox .box {
@@ -131,6 +131,15 @@ nav li a {
   display: block;
 }
 .container .bigBox #tab2:target ~ #tab .tab2 {
+  display: block;
+}
+.container .bigBox #tab3:target ~ #tab .tab3 {
+  display: block;
+}
+.container .bigBox #tab4:target ~ #tab .tab4 {
+  display: block;
+}
+.container .bigBox #tab5:target ~ #tab .tab5 {
   display: block;
 }
 .footer {

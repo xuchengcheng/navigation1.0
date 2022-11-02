@@ -114,7 +114,7 @@ nav {
 		position: relative;
 		margin: 50px auto;
 
-		#tab .tab1+.box {
+		#tab .tab1~.box {
 			display: none;
 		}
 
@@ -162,6 +162,18 @@ nav {
 		}
 
 		#tab2:target~#tab .tab2 {
+			display: block;
+		}
+
+		#tab3:target~#tab .tab3 {
+			display: block;
+		}
+
+		#tab4:target~#tab .tab4 {
+			display: block;
+		}
+
+		#tab5:target~#tab .tab5 {
 			display: block;
 		}
 	}
